@@ -9,7 +9,7 @@ const HomeHtml = () => {
             </div>
             <div>
                     <div className="wrapper">
-                        <h1>Pick a Card</h1>
+                        
                         <ul className="panels">
                             <li>
                                 <div className="front" style={{bakground: "#21bf4b"}}>Hello</div>

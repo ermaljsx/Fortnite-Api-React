@@ -2,26 +2,40 @@
   text-align: center;
 }
 body {
-  background: rgb(6, 92, 45);
+  background: rgb(90, 145, 114);
   font-family: verdana;
   align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+
 nav {
+  width: 80%;
+  height: 7rem;
+  background-color: #38015c;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  min-height: 10vh;
-  background-color: rgb(1, 43, 43);
-  color: aliceblue;
+  padding: 0 10%;
 }
+.image1{
+  height: 80px;
+  width: 100px;
+  border-radius: 70%;
+  opacity: 0.3;
+  
+}
+.brand-name {
+  font-family: 'Josefin Slab', serif;
+  font-size: 47px;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  }
 
 .nav-links {
-  width: 50%;
+  width: 70%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -203,7 +217,7 @@ h1 {
   color: #f1356d
 }
 .create button {
-  background: #f1356d;
+  background: #3835f1;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -219,4 +233,43 @@ h1 {
   margin-left: 350px;
 
 }
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(129, 4, 4, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
 
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details p {
+  font-size: 30px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-body {
+  margin: 100px 70px;
+  border-radius: 120px;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border:#282c34;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}

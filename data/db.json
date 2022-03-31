@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "Run at the new, faster default movement speed. A faster default movement speed means a faster sprint too! This sprint is so fast that it’ll mean pocketing whatever you’re holding. Of course, sprinting super fast can't be maintained forever, so a new sprint meter will tell you how much longer you can move at that pace.",
+      "author": "Ermal",
+      "id": 1
+    },
+    {
+      "title": "Opening Party!",
+      "body": "Gaining the high ground has always been key to winning a battle and fortunately, where your feet fail, your hands will now help you out. If a surface is just a little too high for your jump — or a platform just a little too far for your landing — your hands can come into play and pull you up!",
+      "author": "Belul",
+      "id": 2
+    },
+    {
+      "title": "testing",
+      "body": "This March, in honor of International Women’s Day on March 8, Fortnite is celebrating women with free items to redeem, featured Islands by women creators, and an iconic artist line-up on Icon Radio. In April, tune into the “Women of the eRena Featuring Fortnite” tournament series! Learn more about what’s happening in and around Fortnite to celebrate women.",
+      "author": "Sara",
+      "id": 3
+    },
+    {
+      "title": "dqddeqq",
+      "body": "qd",
+      "author": "yoshi",
+      "id": 5
+    }
+  ]
+}

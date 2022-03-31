@@ -3,7 +3,7 @@ import './home.css'
 import './App.css';
 import Nav from "./nav";
 import Home from "./home"
-import About from "./about";
+import Blog from "./Blog";
 import Shop from "./shop";
 import ItemDetail from "./ItemDetail";
 import {
@@ -11,6 +11,8 @@ import {
      Route
   } from "react-router-dom";
 import { Routes } from "react-router-dom";
+import BlogDetails from "./BlogDetails"
+import Create from "./Create";
 
 
 function App(){
@@ -20,7 +22,10 @@ function App(){
             <Nav /> 
             <Routes>
             <Route exact path='/' element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/Blog" element={<Blog />} />
+            <Route path="/blogs/:id" element={<BlogDetails />} />
+            <Route path="/create" element={<Create />} />
+            
             <Route exact path="/shop"  element={<Shop />} />
             <Route path="/shop/:id" element={<ItemDetail />} />
             </Routes>
